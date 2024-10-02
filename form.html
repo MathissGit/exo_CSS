@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercice Formulaire</title>
+</head>
+<body>
+    <main>
+        <section class="cardCV">
+            <a class="formStyle" href="index.html">Return</a>
+            <form>
+                <fieldset class="formBlock">
+                    <legend>Formulaire</legend>
+                    <label for="nom">Nom : </label>
+                    <input type="text" name="nom" id="nom" placeholder="Nom">
+                    <label for="prenom">Prenom : </label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Prenom">
+                    <label for="mail">Adresse e-mail :</label>
+                    <input type="email" name="email" placeholder="E-mail">
+                    <label for="raison">Raison du message</label>
+                    <select name="raison" id="raison">
+                        <option value="1">Entretien</option>
+                        <option value="2">Rendes-vous</option>
+                        <option value="3">Autre</option>
+                    </select>
+                    <label for="message">La raison de votre contact :</label>
+                    <textarea name="Votre Probleme" id="message" cols="30" rows="5" placeholder="Votre message"></textarea>
+                    <p>
+                        <input type="checkbox" name="cg" id="cg">
+                        <label for="cg">J'accepte etre recontacter apres envoie du formualaire</label>
+                    </p>
+                </fieldset>
+                <input type="submit" value="Envoyer">
+            </form>
+            
+        </section>
+    </main>
+</body>
+</html>

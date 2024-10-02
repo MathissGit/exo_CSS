@@ -1,0 +1,80 @@
+body {
+    background-color: blueviolet;
+}
+
+main {
+    display: block;
+    text-align: center;
+}
+.cardCV {
+    background-color: white;
+    border:  solid black;
+    border-radius: 1em;
+    padding: 1rem;
+    margin: 1.5em;
+}
+
+.formStyle {
+    text-decoration: none;
+    color: orangered;
+}
+.formBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titreBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+    h1{
+        margin: 0;
+        font-size: x-large;
+    }
+
+    p{
+        margin: 0;
+    }
+}
+
+.infoPerso {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+    h1{
+        margin: 0;
+    }
+
+    p{
+        margin: 0;
+    }
+}
+
+.infoCV {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+    ol{
+        margin: 0;
+    }
+
+    ul{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .infoperso {
+        display: none;
+    }
+    .infoCV {
+        display: none;
+    }
+}
